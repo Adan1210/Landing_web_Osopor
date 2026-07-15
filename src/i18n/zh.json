@@ -1,0 +1,138 @@
+{
+  "nav": { "productos": "产品", "soluciones": "解决方案", "blog": "博客", "contacto": "联系我们" },
+  "hero": {
+    "badge": "发泡聚苯乙烯 (EPS) 领导者",
+    "titlePre": "面向工业与建筑的",
+    "titleAccent": "EPS泡沫",
+    "titlePost": "解决方案",
+    "body": "我们在秘鲁奇克拉约的工厂生产高密度发泡聚苯乙烯 (EPS) 产品。专注于保温隔热、轻质楼板填充块和高性能建筑板材。",
+    "cta1": "查看产品",
+    "cta2": "专业咨询",
+    "stat": "A+ 级",
+    "statLabel": "认证保温效率"
+  },
+  "products": {
+    "heading": "专业生产线",
+    "sub": "我们提供符合国内和国际技术标准的100%原生EPS。",
+    "items": [
+      { "imgIndex": 0, "title": "EPS板材", "desc": "密度10至30 kg/m³的EPS板，标准尺寸1.20 × 2.40米，用于保温、伸缩缝和隔断。", "feat1": "7种密度可选", "feat2": "可定制尺寸" },
+      { "imgIndex": 1, "title": "屋面填充块", "desc": "用于轻质楼板的EPS砌块：每平方米减重达80公斤，每块可替代4块粘土砖。", "feat1": "降低恒载", "feat2": "节省钢筋和混凝土" },
+      { "imgIndex": 2, "title": "EPS颗粒", "desc": "发泡聚苯乙烯颗粒，100%原生材料，用于轻质混凝土和轻化砂浆。", "feat1": "轻质混凝土", "feat2": "原生预发泡" }
+    ],
+    "specCards": [
+      {
+        "title": "我们的聚苯乙烯板材",
+        "features": [
+          { "icon": "payments", "label": "降低能源成本" },
+          { "icon": "speed", "label": "安装快速简便" },
+          { "icon": "thermostat", "label": "保温隔热" },
+          { "icon": "volume_off", "label": "隔音" }
+        ],
+        "densitiesLabel": "密度",
+        "densities": ["10 Kg/m3", "12 Kg/m3", "15 Kg/m3", "18 Kg/m3", "20 Kg/m3", "25 Kg/m3", "30 Kg/m3"],
+        "dimensionsLabel": "尺寸",
+        "dimensions": ["1.20 x 2.40 米"],
+        "presentationsLabel": "包装规格",
+        "presentations": ["1/2\" = 76 件", "3/4\" = 50 件", "1\" = 38 件", "1 1/2\" = 25 件", "2\" = 19 件"],
+        "note": "可根据订单量定制特殊尺寸。"
+      },
+      {
+        "title": "屋面填充块数据",
+        "features": [
+          { "icon": "thermostat", "label": "保温隔热" },
+          { "icon": "savings", "label": "经济实惠" },
+          { "icon": "speed", "label": "安装快速简便" },
+          { "icon": "weight", "label": "轻质" }
+        ],
+        "densitiesLabel": "密度",
+        "densities": ["10 Kg/m3", "12 Kg/m3", "15 Kg/m3", "18 Kg/m3", "按需定制"],
+        "dimensionsLabel": "尺寸",
+        "dimensions": ["1.20 x 0.30 x 0.12", "1.20 x 0.30 x 0.15", "按需定制"],
+        "presentationsLabel": "包装规格",
+        "presentations": ["1.20 x 0.30 x 0.12 = 64 块", "1.20 x 0.30 x 0.15 = 48 块", "按需定制"],
+        "note": "每块EPS屋面填充块可替代4块粘土砖。"
+      }
+    ]
+  },
+  "construction": {
+    "eyebrow": "工程与建筑",
+    "h2": "革新现代建筑",
+    "body": "在土木建筑中使用EPS可优化工期和成本。我们的建筑系统具有无可比拟的技术优势。",
+    "benefits": [
+      { "icon": "weight", "title": "结构轻量化", "desc": "楼板每平方米减重达80公斤。" },
+      { "icon": "speed", "title": "安装快速", "desc": "现场搬运和切割快捷。" },
+      { "icon": "eco", "title": "可持续高效", "desc": "100%可回收LEED级材料。" },
+      { "icon": "payments", "title": "节省材料", "desc": "减少混凝土和钢材用量。" }
+    ]
+  },
+  "insulation": {
+    "h2": "保温与隔音",
+    "body": "我们的EPS保温解决方案确保关键环境的温度控制。",
+    "card1title": "冷库",
+    "card1desc": "高密度 (20-30 kg/m³)，避免热桥。",
+    "card2title": "住宅保温",
+    "card2desc": "极端气候下的隔音舒适与热稳定性。",
+    "statTemp": "低至 -15°C",
+    "statLabel": "经验证的耐热性能"
+  },
+  "faq": {
+    "h2": "常见问题",
+    "items": [
+      { "q": "你们生产哪些密度的EPS板材？", "a": "我们生产7种密度的EPS板材：10、12、15、18、20、25和30 kg/m³，标准尺寸为1.20 × 2.40米。可根据订单量定制特殊尺寸。" },
+      { "q": "EPS填充块能为楼板减重多少？", "a": "EPS填充块可为结构减重达80 kg/m²。每块EPS屋面砌块可替代4块粘土砖，节省钢筋和混凝土。" },
+      { "q": "你们配送秘鲁哪些地区？", "a": "我们的工厂位于奇克拉约 (Av. Lora y Lora 2370, José Leonardo Ortiz)，服务秘鲁整个北部和东北部地区。" },
+      { "q": "材料是原生的还是回收的？", "a": "我们所有产品均采用100%原生发泡聚苯乙烯制造，保证密度均匀和认证的保温性能。" }
+    ]
+  },
+  "contact": {
+    "h2": "立即开始您的项目。",
+    "body": "我们的商务工程师团队随时为您提供个性化技术咨询。",
+    "items": [
+      { "icon": "home_work", "title": "办公室和工厂", "desc": "Av. Lora y Lora 2370\nJosé Leonardo Ortiz\nChiclayo - Lambayeque" },
+      { "icon": "call", "title": "电话", "desc": "+51 905 461 659" },
+      { "icon": "mail", "title": "邮箱", "desc": "ventas@osopor.pe" }
+    ],
+    "form": {
+      "nombre": "名字",
+      "nombrePlaceholder": "例：小明",
+      "apellido": "姓氏",
+      "apellidoPlaceholder": "例：王",
+      "correo": "电子邮箱",
+      "servicio": "服务",
+      "servicioOptions": [
+        { "label": "建筑报价（填充块）" },
+        { "label": "冷库保温" },
+        { "label": "定制EPS板材" },
+        { "label": "EPS颗粒批量供应" },
+        { "label": "项目技术咨询" },
+        { "label": "其他" }
+      ],
+      "mensaje": "留言",
+      "mensajePlaceholder": "您的需求详情...",
+      "submit": "发送技术咨询"
+    }
+  },
+  "whatsappMessage": "您好，我对贵公司的EPS产品感兴趣。",
+  "location": { "label": "OSOPOR 奇克拉约办公室及工厂", "cta": "在谷歌地图查看" },
+  "footer": {
+    "name": "Osopor S.A.C.",
+    "copyright": "© 2026 Osopor S.A.C. 高精度EPS制造。",
+    "tagline": "EPS | 保温 | 建筑 | 秘鲁",
+    "address": "Av. Lora y Lora 2370, José Leonardo Ortiz, Chiclayo - Lambayeque"
+  },
+  "blog": {
+    "title": "技术博客",
+    "sub": "关于发泡聚苯乙烯 (EPS)、填充块、保温隔热和秘鲁轻质建筑的指南和文章。",
+    "all": "全部",
+    "readMore": "阅读文章",
+    "backToBlog": "← 返回博客",
+    "minRead": "分钟阅读",
+    "related": "相关文章",
+    "ctaTitle": "需要项目咨询？",
+    "ctaBody": "与我们的商务工程师讨论密度、尺寸和工地配送。",
+    "ctaBtn": "索取报价",
+    "publishedOn": "发布于"
+  },
+  "categories": { "construccion": "建筑", "aislamiento": "保温", "productos": "产品", "guias": "指南" },
+  "demoFormAlert": "演示表单 — 未连接后端。"
+}
