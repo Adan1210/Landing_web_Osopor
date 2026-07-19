@@ -1,5 +1,12 @@
-node_modules
-dist
-.venv
+node_modules/
+dist/
+.wrangler/
+
+# Local secrets
+.dev.vars*
+.env*
+!.env.example
+
+# Local/editor files
+*.log
 .DS_Store
-.kilo
