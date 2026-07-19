@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "osopor",
+  "name": "Landing_web_Osopor",
   "compatibility_date": "2026-07-18",
   "assets": {
     "directory": "./dist",
