@@ -1,0 +1,137 @@
+{
+  "nav": { "productos": "Products", "soluciones": "Solutions", "blog": "Blog", "contacto": "Contact" },
+  "hero": {
+    "badge": "LEADERS IN EXPANDED POLYSTYRENE (EPS)",
+    "titlePre": "EPS Solutions",
+    "titleAccent": "in Tecnopor",
+    "titlePost": "for Industry and Construction",
+    "body": "We manufacture high-density expanded polystyrene (EPS) products at our plant in Chiclayo, Peru. Specialists in thermal insulation, lightweight roof void formers and high-performance construction panels.",
+    "cta1": "VIEW PRODUCTS",
+    "cta2": "EXPERT ADVICE",
+    "stat": "A+ Grade",
+    "statLabel": "CERTIFIED THERMAL EFFICIENCY"
+  },
+  "products": {
+    "heading": "Specialized Production Lines",
+    "sub": "We supply 100% virgin EPS adapted to national and international technical standards.",
+    "items": [
+      { "imgIndex": 0, "title": "EPS Panels", "desc": "EPS boards in densities from 10 to 30 kg/m³, standard size 1.20 × 2.40 m, for insulation, joints and partitions.", "feat1": "7 densities available", "feat2": "Custom sizes on request" },
+      { "imgIndex": 1, "title": "Roof Void Formers", "desc": "EPS roof blocks for lightweight slabs: reduce up to 80 kg/m² and replace 4 clay bricks each.", "feat1": "Lower dead load", "feat2": "Steel and concrete savings" },
+      { "imgIndex": 2, "title": "EPS Beads", "desc": "Expanded polystyrene beads, 100% virgin material, for lightweight concrete and mix lightening.", "feat1": "Lightweight concrete", "feat2": "Virgin pre-expanded" }
+    ],
+    "specCards": [
+      {
+        "title": "Our Expanded Polystyrene Panels",
+        "features": [
+          { "icon": "payments", "label": "Reduces energy costs" },
+          { "icon": "speed", "label": "Fast and easy installation" },
+          { "icon": "thermostat", "label": "Thermal insulation" },
+          { "icon": "volume_off", "label": "Acoustic insulation" }
+        ],
+        "densitiesLabel": "DENSITIES",
+        "densities": ["10 Kg/m3", "12 Kg/m3", "15 Kg/m3", "18 Kg/m3", "20 Kg/m3", "25 Kg/m3", "30 Kg/m3"],
+        "dimensionsLabel": "DIMENSIONS",
+        "dimensions": ["1.20 x 2.40 m"],
+        "presentationsLabel": "PACKAGING",
+        "presentations": ["1/2\" = 76 units", "3/4\" = 50 units", "1\" = 38 units", "1 1/2\" = 25 units", "2\" = 19 units"],
+        "note": "Custom sizes available depending on order volume."
+      },
+      {
+        "title": "Our Roof Void Formers at a Glance",
+        "features": [
+          { "icon": "thermostat", "label": "Thermal insulation" },
+          { "icon": "savings", "label": "Economical" },
+          { "icon": "speed", "label": "Fast and easy installation" },
+          { "icon": "weight", "label": "Lightweight" }
+        ],
+        "densitiesLabel": "DENSITIES",
+        "densities": ["10 Kg/m3", "12 Kg/m3", "15 Kg/m3", "18 Kg/m3", "As required"],
+        "dimensionsLabel": "DIMENSIONS",
+        "dimensions": ["1.20 x 0.30 x 0.12", "1.20 x 0.30 x 0.15", "As required"],
+        "presentationsLabel": "PACKAGING",
+        "presentations": ["1.20 x 0.30 x 0.12 = 64 blocks", "1.20 x 0.30 x 0.15 = 56 blocks", "As required"],
+        "note": "EPS void formers replace 4 clay bricks each."
+      }
+    ]
+  },
+  "construction": {
+    "eyebrow": "ENGINEERING & ARCHITECTURE",
+    "h2": "Revolutionizing Modern Construction",
+    "body": "Using EPS in civil construction optimizes time and costs. Our building systems offer unmatched technical advantages.",
+    "benefits": [
+      { "icon": "weight", "title": "Structural Lightness", "desc": "Reduces slab weight by up to 80 kg/m²." },
+      { "icon": "speed", "title": "Installation Speed", "desc": "Fast on-site handling and cutting." },
+      { "icon": "eco", "title": "Sustainable Efficiency", "desc": "100% recyclable LEED-grade material." },
+      { "icon": "payments", "title": "Material Savings", "desc": "Lower concrete and steel consumption." }
+    ]
+  },
+  "insulation": {
+    "h2": "Thermal & Acoustic Insulation",
+    "body": "Our EPS insulation solutions guarantee temperature control in critical environments.",
+    "card1title": "Cold Rooms",
+    "card1desc": "High density (20-30 kg/m³) to avoid thermal bridges.",
+    "card2title": "Residential Insulation",
+    "card2desc": "Acoustic comfort and thermal stability in extreme climates.",
+    "statTemp": "Down to -15°C",
+    "statLabel": "PROVEN THERMAL RESISTANCE"
+  },
+  "faq": {
+    "h2": "Frequently Asked Questions",
+    "items": [
+      { "q": "What EPS panel densities do you manufacture?", "a": "We manufacture EPS panels in different densities of 10, 12, 15, 18, 20, 25 and 30 kg/m³, standard size 1.20 × 2.40 m. Special sizes are available depending on order volume." },
+      { "q": "How much weight does an EPS void former save?", "a": "EPS void formers can reduce slab loads by up to 80 kg/m². Each EPS roof block replaces 4 clay bricks, saving rebar steel and concrete." },
+      { "q": "Which regions of Peru do you serve?", "a": "Our plant is located in Chiclayo (Av. Lora y Lora 2370, José Leonardo Ortiz) and we serve all of northern and northeastern Peru: Lambayeque, La Libertad, Piura, Tumbes, Cajamarca, Amazonas and San Martín." }
+    ]
+  },
+  "contact": {
+    "h2": "Start your project today.",
+    "body": "Our team of sales engineers is ready to provide personalized technical advice.",
+    "items": [
+      { "icon": "home_work", "title": "Office & Plant", "desc": "Av. Lora y Lora 2370\nJosé Leonardo Ortiz\nChiclayo - Lambayeque" },
+      { "icon": "call", "title": "Phone", "desc": "+51 905 461 659" },
+      { "icon": "mail", "title": "Email", "desc": "ventas@osopor.pe" }
+    ],
+    "form": {
+      "nombre": "First Name",
+      "nombrePlaceholder": "E.g. John",
+      "apellido": "Last Name",
+      "apellidoPlaceholder": "E.g. Smith",
+      "correo": "Email Address",
+      "servicio": "Service",
+      "servicioOptions": [
+        { "label": "Construction Quote (Void Formers)" },
+        { "label": "Cold Room Insulation" },
+        { "label": "Custom EPS Panels" },
+        { "label": "Bulk EPS Beads Supply" },
+        { "label": "Technical Project Advice" },
+        { "label": "Other" }
+      ],
+      "mensaje": "Message",
+      "mensajePlaceholder": "Details of your requirement...",
+      "submit": "SEND TECHNICAL REQUEST"
+    }
+  },
+  "whatsappMessage": "Hello, I am interested in your EPS products.",
+  "location": { "label": "OSOPOR OFFICE & PLANT - CHICLAYO", "cta": "VIEW ON GOOGLE MAPS" },
+  "footer": {
+    "name": "Osopor S.A.C.",
+    "copyright": "© 2026 Osopor S.A.C. High-Precision EPS Manufacturing.",
+    "tagline": "EPS | Insulation | Construction | Peru",
+    "address": "Av. Lora y Lora 2370, José Leonardo Ortiz, Chiclayo - Lambayeque"
+  },
+  "blog": {
+    "title": "Technical Blog",
+    "sub": "Guides and articles on expanded polystyrene (EPS), void formers, thermal insulation and lightweight construction in Peru.",
+    "all": "All",
+    "readMore": "Read article",
+    "backToBlog": "← Back to blog",
+    "minRead": "min read",
+    "related": "Related articles",
+    "ctaTitle": "Need advice for your project?",
+    "ctaBody": "Talk to our sales engineers about densities, sizes and delivery to your site.",
+    "ctaBtn": "REQUEST A QUOTE",
+    "publishedOn": "Published on"
+  },
+  "categories": { "construccion": "Construction", "aislamiento": "Insulation", "productos": "Products", "guias": "Guides" },
+  "demoFormAlert": "Demo form — no backend connected."
+}

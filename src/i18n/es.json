@@ -1,0 +1,137 @@
+{
+  "nav": { "productos": "Productos", "soluciones": "Soluciones", "blog": "Blog", "contacto": "Contacto" },
+  "hero": {
+    "badge": "LÍDERES EN POLIESTIRENO EXPANDIDO (EPS)",
+    "titlePre": "Soluciones en",
+    "titleAccent": "Tecnopor",
+    "titlePost": "para la Industria y Construcción",
+    "body": "Fabricamos productos de poliestireno expandido (EPS) de alta densidad en nuestra planta de Chiclayo. Especialistas en aislamiento térmico, casetones para techos aligerados y planchas para construcción de alto desempeño.",
+    "cta1": "VER PRODUCTOS",
+    "cta2": "ASESORÍA ESPECIALIZADA",
+    "stat": "A+ Grado",
+    "statLabel": "EFICIENCIA TÉRMICA CERTIFICADA"
+  },
+  "products": {
+    "heading": "Líneas de Producción Especializadas",
+    "sub": "Suministramos tecnopor 100% virgen adaptado a las normativas técnicas nacionales e internacionales.",
+    "items": [
+      { "imgIndex": 0, "title": "Planchas de Tecnopor", "desc": "Paneles de EPS en densidades de 10 a 30 kg/m³, dimensión estándar 1.20 × 2.40 m, para aislamiento, juntas y divisiones.", "feat1": "7 densidades disponibles", "feat2": "Medidas especiales a pedido" },
+      { "imgIndex": 1, "title": "Casetones para Techos", "desc": "Ladrillos de techo de EPS para aligerado de losas: reducen hasta 80 kg/m² y reemplazan 4 ladrillos de arcilla.", "feat1": "Menor carga muerta", "feat2": "Ahorro en acero y concreto" },
+      { "imgIndex": 2, "title": "Perlas de EPS", "desc": "Poliestireno expandido en perlas, material 100% virgen, para concreto liviano y aligeramiento de mezclas.", "feat1": "Concreto liviano", "feat2": "Pre-expandido virgen" }
+    ],
+    "specCards": [
+      {
+        "title": "Nuestras Planchas de Poliestireno",
+        "features": [
+          { "icon": "payments", "label": "Reduce costos de energía" },
+          { "icon": "speed", "label": "Rápida y fácil instalación" },
+          { "icon": "thermostat", "label": "Aislamiento térmico" },
+          { "icon": "volume_off", "label": "Aislamiento acústico" }
+        ],
+        "densitiesLabel": "DENSIDADES",
+        "densities": ["10 Kg/m3", "12 Kg/m3", "15 Kg/m3", "18 Kg/m3", "20 Kg/m3", "25 Kg/m3", "30 Kg/m3"],
+        "dimensionsLabel": "DIMENSIONES",
+        "dimensions": ["1.20 x 2.40 m"],
+        "presentationsLabel": "PRESENTACIONES",
+        "presentations": ["1/2\" = 76 unid", "3/4\" = 50 unid", "1\" = 38 unid", "1 1/2\" = 25 unid", "2\" = 19 unid"],
+        "note": "Se pueden manejar medidas especiales según el volumen del pedido."
+      },
+      {
+        "title": "Datos de Nuestros Casetones",
+        "features": [
+          { "icon": "thermostat", "label": "Aislamiento térmico" },
+          { "icon": "savings", "label": "Económico" },
+          { "icon": "speed", "label": "Instalación fácil y rápida" },
+          { "icon": "weight", "label": "Ligero" }
+        ],
+        "densitiesLabel": "DENSIDADES",
+        "densities": ["10 Kg/m3", "12 Kg/m3", "15 Kg/m3", "18 Kg/m3", "Según requerimiento"],
+        "dimensionsLabel": "DIMENSIONES",
+        "dimensions": ["1.20 x 0.30 x 0.12", "1.20 x 0.30 x 0.15", "Según requerimiento"],
+        "presentationsLabel": "PRESENTACIONES",
+        "presentations": ["1.20 x 0.30 x 0.12 = 64 ladrillos", "1.20 x 0.30 x 0.15 = 56 ladrillos", "Según requerimiento"],
+        "note": "Los casetones de tecnopor reemplazan a 4 ladrillos de cerámica."
+      }
+    ]
+  },
+  "construction": {
+    "eyebrow": "INGENIERÍA Y ARQUITECTURA",
+    "h2": "Revolucionando la Construcción Moderna",
+    "body": "El uso de tecnopor en la construcción civil permite optimizar tiempos y costos. Nuestros sistemas constructivos ofrecen ventajas técnicas incomparables.",
+    "benefits": [
+      { "icon": "weight", "title": "Ligereza Estructural", "desc": "Reduce el peso de la losa hasta en 80 kg/m²." },
+      { "icon": "speed", "title": "Velocidad de Instalación", "desc": "Manipulación y corte in situ acelerado." },
+      { "icon": "eco", "title": "Eficiencia Sostenible", "desc": "Material 100% reciclable grado LEED." },
+      { "icon": "payments", "title": "Ahorro en Materiales", "desc": "Menor consumo de concreto y acero." }
+    ]
+  },
+  "insulation": {
+    "h2": "Aislamiento Térmico y Acústico",
+    "body": "Nuestras soluciones de aislamiento térmico con tecnopor garantizan el control de temperatura en ambientes críticos.",
+    "card1title": "Cámaras Frigoríficas",
+    "card1desc": "Alta densidad (20-30 kg/m³) para evitar puentes térmicos.",
+    "card2title": "Aislamiento Residencial",
+    "card2desc": "Confort acústico y estabilidad térmica en climas extremos.",
+    "statTemp": "Hasta -15°C",
+    "statLabel": "RESISTENCIA TÉRMICA PROBADA"
+  },
+  "faq": {
+    "h2": "Preguntas Frecuentes",
+    "items": [
+      { "q": "¿Qué densidades de planchas de tecnopor fabrican?", "a": "Fabricamos planchas de EPS en diferentes densidades de 10, 12, 15, 18, 20, 25 y 30 kg/m³, en dimensión estándar de 1.20 × 2.40 m. Se pueden manejar medidas especiales según el volumen del pedido." },
+      { "q": "¿Cuánto peso reduce un casetón de tecnopor en la losa?", "a": "El casetón de EPS puede reducir hasta 80 kg/m² de carga en la estructura. Un ladrillo de techo de tecnopor reemplaza a 4 ladrillos de arcilla, generando ahorro de acero corrugado y concreto." },
+      { "q": "¿A qué zonas del Perú despachan?", "a": "Nuestra planta está ubicada en Chiclayo (Av. Lora y Lora 2370, José Leonardo Ortiz) y atendemos a todo el norte y nororiente del Perú: Lambayeque, La Libertad, Piura, Tumbes, Cajamarca, Amazonas y San Martín." }
+    ]
+  },
+  "contact": {
+    "h2": "Inicie su proyecto hoy mismo.",
+    "body": "Nuestro equipo de ingenieros comerciales está listo para brindarle asesoría técnica personalizada.",
+    "items": [
+      { "icon": "home_work", "title": "Oficina y Planta", "desc": "Av. Lora y Lora 2370\nJosé Leonardo Ortiz\nChiclayo - Lambayeque" },
+      { "icon": "call", "title": "Teléfono", "desc": "905 461 659" },
+      { "icon": "mail", "title": "Correo", "desc": "ventas@osopor.pe" }
+    ],
+    "form": {
+      "nombre": "Nombre",
+      "nombrePlaceholder": "Ej. Juan",
+      "apellido": "Apellido",
+      "apellidoPlaceholder": "Ej. Pérez",
+      "correo": "Correo Electrónico",
+      "servicio": "Servicio",
+      "servicioOptions": [
+        { "label": "Cotización para Construcción (Casetones)" },
+        { "label": "Aislamiento para Cámaras Frigoríficas" },
+        { "label": "Planchas de Tecnopor a Medida" },
+        { "label": "Suministro de Perlas EPS Granel" },
+        { "label": "Asesoría Técnica en Proyectos" },
+        { "label": "Otro" }
+      ],
+      "mensaje": "Mensaje",
+      "mensajePlaceholder": "Detalles de su requerimiento...",
+      "submit": "ENVIAR SOLICITUD TÉCNICA"
+    }
+  },
+  "whatsappMessage": "Hola, estoy interesado en sus productos de Tecnopor.",
+  "location": { "label": "OFICINA Y PLANTA OSOPOR - CHICLAYO", "cta": "VER EN GOOGLE MAPS" },
+  "footer": {
+    "name": "Osopor S.A.C.",
+    "copyright": "© 2026 Osopor S.A.C. Fabricación de EPS de Alta Precisión.",
+    "tagline": "Tecnopor | Aislamiento | Construcción | Perú",
+    "address": "Av. Lora y Lora 2370, José Leonardo Ortiz, Chiclayo - Lambayeque"
+  },
+  "blog": {
+    "title": "Blog Técnico",
+    "sub": "Guías y artículos sobre poliestireno expandido (EPS), casetones, aislamiento térmico y construcción ligera en el Perú.",
+    "all": "Todos",
+    "readMore": "Leer artículo",
+    "backToBlog": "← Volver al blog",
+    "minRead": "min de lectura",
+    "related": "Artículos relacionados",
+    "ctaTitle": "¿Necesita asesoría para su proyecto?",
+    "ctaBody": "Converse con nuestros ingenieros comerciales sobre densidades, medidas y despacho a su obra.",
+    "ctaBtn": "SOLICITAR COTIZACIÓN",
+    "publishedOn": "Publicado el"
+  },
+  "categories": { "construccion": "Construcción", "aislamiento": "Aislamiento", "productos": "Productos", "guias": "Guías" },
+  "demoFormAlert": "Formulario de demostración — sin backend conectado."
+}
