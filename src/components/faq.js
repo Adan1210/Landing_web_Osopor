@@ -3,7 +3,7 @@ import { esc } from "../utils/html.js";
 function renderFaqItem(f) {
   return `
     <details style="border-bottom:1px solid #E7E7E4;padding:24px 0;">
-      <summary style="font-size:20px;font-weight:600;letter-spacing:-0.02em;color:#1b1b1b;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px;">${esc(f.q)}<span class="material-symbols-outlined" style="color:#FF851B;flex-shrink:0;">add</span></summary>
+      <summary style="font-size:20px;font-weight:600;letter-spacing:-0.02em;color:#001F3F;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px;">${esc(f.q)}<span class="material-symbols-outlined" style="color:#FF851B;flex-shrink:0;">add</span></summary>
       <p style="font-size:16px;line-height:1.6;color:#5e5e5e;margin:16px 0 0 0;max-width:640px;">${esc(f.a)}</p>
     </details>
   `;

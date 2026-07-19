@@ -38,12 +38,107 @@ img {
 
 .nav-link:hover,
 .lang-btn:hover {
-  color: #1b1b1b !important;
+  color: #001F3F !important;
+}
+
+.header-logo-box,
+.language-box {
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid #dededb;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,31,63, 0.04);
+}
+
+.language-box {
+  background: #ffffff;
+  border-color: #e7e7e4;
+  border-radius: 9999px;
+  box-shadow: 0 5px 14px rgba(0,31,63, 0.08);
+}
+
+.language-box .lang-btn:hover {
+  color: #001f3f !important;
+}
+
+.language-separator {
+  margin: 0 7px;
+  color: #b0b0aa;
+  font-size: 13px;
+  line-height: 1;
+}
+
+.header-logo-box {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  padding: 4px 8px;
+}
+
+.header-logo {
+  display: block;
+  width: auto;
+  height: 50px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.language-box {
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  white-space: nowrap;
+}
+
+.mobile-language-box {
+  margin-right: 8px;
+}
+
+.header-nav-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 10px 16px;
+  background: rgba(255, 255, 255, 0.86);
+  border: 1px solid #e7e7e4;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,31,63,0.06);
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.header-nav-link:hover {
+  background: #ffffff;
+  border-color: rgba(0,31,63,0.2);
+  transform: translateY(-1px);
+}
+
+.header-inner {
+  position: relative;
+  z-index: 1;
+}
+
+.header-cubes {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-color: #ffffff;
+  background-image:
+    linear-gradient(30deg, #ececea 12%, transparent 12.5%, transparent 87%, #ececea 87.5%, #ececea),
+    linear-gradient(150deg, #ececea 12%, transparent 12.5%, transparent 87%, #ececea 87.5%, #ececea),
+    linear-gradient(30deg, #f5f5f3 12%, transparent 12.5%, transparent 87%, #f5f5f3 87.5%, #f5f5f3),
+    linear-gradient(150deg, #f5f5f3 12%, transparent 12.5%, transparent 87%, #f5f5f3 87.5%, #f5f5f3),
+    linear-gradient(60deg, #dededb 25%, transparent 25.5%, transparent 75%, #dededb 75%, #dededb),
+    linear-gradient(60deg, #dededb 25%, transparent 25.5%, transparent 75%, #dededb 75%, #dededb);
+  background-position: 0 0, 0 0, 28px 49px, 28px 49px, 0 0, 28px 49px;
+  background-size: 56px 98px;
+  opacity: 0.72;
 }
 
 .btn-primary:hover,
 .cta-orange:hover {
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 20px 25px -5px rgba(0,31,63, 0.1);
 }
 
 .btn-secondary:hover {
@@ -60,7 +155,7 @@ img {
 }
 
 .footer-link:hover {
-  color: #1b1b1b !important;
+  color: #001F3F !important;
 }
 
 .whatsapp-btn:hover {
@@ -78,7 +173,7 @@ select:focus {
 }
 
 .blog-filter-btn:hover {
-  border-color: #1b1b1b !important;
+  border-color: #001F3F !important;
 }
 
 /* FAQ accordion: remove default <details>/<summary> markers, we draw our own "+" icon */
@@ -108,14 +203,16 @@ details summary .material-symbols-outlined {
 }
 
 .mobile-menu-btn:hover {
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(0,31,63, 0.05);
 }
 
 .mobile-nav {
   display: none;
   flex-direction: column;
+  gap: 8px;
   background: #ffffff;
   border-top: 1px solid #e7e7e4;
+  padding: 12px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.25s ease;
@@ -127,6 +224,21 @@ details summary .material-symbols-outlined {
 
 .mobile-nav-link:hover {
   background: #f9f9f9;
+}
+
+.mobile-nav-link {
+  background: #ffffff;
+  border: 1px solid #e7e7e4;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,31,63,0.05);
+}
+
+/* Keep every desktop header box on the same horizontal distribution axis. */
+@media (min-width: 901px) {
+  .header-inner > .main-nav,
+  .header-inner > .desktop-only {
+    display: contents !important;
+  }
 }
 
 /* ---- Tablet (<=1024px) ---- */
@@ -164,6 +276,33 @@ details summary .material-symbols-outlined {
 
   .mobile-menu-btn {
     display: inline-flex !important;
+  }
+
+  .mobile-header-actions {
+    display: flex !important;
+  }
+
+  .header-logo-box {
+    width: clamp(96px, 32vw, 130px);
+    height: 52px;
+    padding: 4px 6px;
+  }
+
+  .header-logo {
+    width: 100%;
+    height: auto;
+    max-height: 44px;
+  }
+
+  .mobile-language-box {
+    margin-right: 6px;
+    padding: 9px 12px;
+  }
+
+  .header-cubes {
+    background-position: 0 0, 0 0, 22px 38.5px, 22px 38.5px, 0 0, 22px 38.5px;
+    background-size: 44px 77px;
+    opacity: 0.62;
   }
 
   .mobile-nav {
@@ -259,5 +398,29 @@ details summary .material-symbols-outlined {
   .whatsapp-btn svg {
     width: 24px !important;
     height: 24px !important;
+  }
+}
+
+@media (max-width: 340px) {
+  .header-inner {
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+  }
+
+  .header-logo-box {
+    width: 84px;
+  }
+
+  .mobile-language-box {
+    padding: 8px 7px;
+  }
+
+  .mobile-language-box .lang-btn,
+  .mobile-language-box .language-separator {
+    font-size: 12px !important;
+  }
+
+  .mobile-language-box .language-separator {
+    margin: 0 3px;
   }
 }

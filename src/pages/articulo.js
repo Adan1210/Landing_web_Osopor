@@ -61,7 +61,7 @@ function render(root) {
     }));
 
   root.innerHTML = `
-    <div style="background:#F7F7F5;color:#1b1b1b;min-height:100vh;display:flex;flex-direction:column;">
+    <div style="background:#F7F7F5;color:#001F3F;min-height:100vh;display:flex;flex-direction:column;">
       ${renderHeader(t, lang, "blog")}
       <main style="padding-top:72px;flex:1;">
         <article>
@@ -76,7 +76,7 @@ function render(root) {
           </div>
 
           <div style="max-width:1080px;margin:0 auto;padding:48px 32px;">
-            <div class="article-hero-img" style="height:440px;border-radius:2rem;overflow:hidden;box-shadow:0 25px 50px -12px rgba(0,0,0,0.18);">
+            <div class="article-hero-img" style="height:440px;border-radius:2rem;overflow:hidden;box-shadow:0 25px 50px -12px rgba(0,31,63,0.18);">
               <img alt="${esc(content.title)}" style="width:100%;height:100%;object-fit:cover;" src="${post.img}"/>
             </div>
           </div>
@@ -89,7 +89,7 @@ function render(root) {
                 <h3 style="font-size:22px;line-height:1.25;letter-spacing:-0.02em;font-weight:600;color:#001F3F;margin:0;">${esc(t.blog.ctaTitle)}</h3>
                 <p style="font-size:15px;line-height:1.6;color:#5e5e5e;margin:0;">${esc(t.blog.ctaBody)}</p>
               </div>
-              <a href="contacto.html" style="background:#000000;color:#ffffff;padding:16px 32px;border-radius:9999px;font-size:12px;font-weight:600;letter-spacing:0.1em;flex-shrink:0;">${esc(t.blog.ctaBtn)}</a>
+              <a href="contacto.html" style="background:#001F3F;color:#ffffff;padding:16px 32px;border-radius:9999px;font-size:12px;font-weight:600;letter-spacing:0.1em;flex-shrink:0;">${esc(t.blog.ctaBtn)}</a>
             </div>
           </div>
 

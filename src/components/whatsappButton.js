@@ -3,7 +3,7 @@ const WHATSAPP_SVG = `<svg viewBox="0 0 32 32" width="32" height="32" fill="#fff
 export function renderWhatsappButton(t) {
   const whatsappLink = `https://wa.me/51905461659?text=${encodeURIComponent(t.whatsappMessage)}`;
   return `
-    <a href="${whatsappLink}" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="whatsapp-btn" style="position:fixed;bottom:32px;right:32px;z-index:60;width:64px;height:64px;background:#000000;border-radius:9999px;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 25px -5px rgba(0,0,0,0.35);border:1px solid #E7E7E4;">
+    <a href="${whatsappLink}" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="whatsapp-btn" style="position:fixed;bottom:32px;right:32px;z-index:60;width:64px;height:64px;background:#001F3F;border-radius:9999px;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 25px -5px rgba(0,31,63,0.3);border:1px solid #001F3F;">
       ${WHATSAPP_SVG}
     </a>
   `;

@@ -1,5 +1,5 @@
 {
-  "nav": { "productos": "Productos", "soluciones": "Soluciones", "blog": "Blog", "contacto": "CONTACTO" },
+  "nav": { "productos": "Productos", "soluciones": "Soluciones", "blog": "Blog", "contacto": "Contacto" },
   "hero": {
     "badge": "LÍDERES EN POLIESTIRENO EXPANDIDO (EPS)",
     "titlePre": "Soluciones en",
@@ -49,7 +49,7 @@
         "dimensionsLabel": "DIMENSIONES",
         "dimensions": ["1.20 x 0.30 x 0.12", "1.20 x 0.30 x 0.15", "Según requerimiento"],
         "presentationsLabel": "PRESENTACIONES",
-        "presentations": ["1.20 x 0.30 x 0.12 = 64 ladrillos", "1.20 x 0.30 x 0.15 = 48 ladrillos", "Según requerimiento"],
+        "presentations": ["1.20 x 0.30 x 0.12 = 64 ladrillos", "1.20 x 0.30 x 0.15 = 56 ladrillos", "Según requerimiento"],
         "note": "Los casetones de tecnopor reemplazan a 4 ladrillos de cerámica."
       }
     ]
@@ -78,10 +78,9 @@
   "faq": {
     "h2": "Preguntas Frecuentes",
     "items": [
-      { "q": "¿Qué densidades de planchas de tecnopor fabrican?", "a": "Fabricamos planchas de EPS en 7 densidades: 10, 12, 15, 18, 20, 25 y 30 kg/m³, en dimensión estándar de 1.20 × 2.40 m. Se pueden manejar medidas especiales según el volumen del pedido." },
+      { "q": "¿Qué densidades de planchas de tecnopor fabrican?", "a": "Fabricamos planchas de EPS en diferentes densidades de 10, 12, 15, 18, 20, 25 y 30 kg/m³, en dimensión estándar de 1.20 × 2.40 m. Se pueden manejar medidas especiales según el volumen del pedido." },
       { "q": "¿Cuánto peso reduce un casetón de tecnopor en la losa?", "a": "El casetón de EPS puede reducir hasta 80 kg/m² de carga en la estructura. Un ladrillo de techo de tecnopor reemplaza a 4 ladrillos de arcilla, generando ahorro de acero corrugado y concreto." },
-      { "q": "¿A qué zonas del Perú despachan?", "a": "Nuestra planta está ubicada en Chiclayo (Av. Lora y Lora 2370, José Leonardo Ortiz) y atendemos a todo el norte y nororiente del Perú: Lambayeque, La Libertad, Piura, Tumbes, Cajamarca, Amazonas y San Martín." },
-      { "q": "¿El material es virgen o reciclado?", "a": "Todos nuestros productos se fabrican con poliestireno expandido 100% virgen, garantizando densidad uniforme y desempeño térmico certificado." }
+      { "q": "¿A qué zonas del Perú despachan?", "a": "Nuestra planta está ubicada en Chiclayo (Av. Lora y Lora 2370, José Leonardo Ortiz) y atendemos a todo el norte y nororiente del Perú: Lambayeque, La Libertad, Piura, Tumbes, Cajamarca, Amazonas y San Martín." }
     ]
   },
   "contact": {

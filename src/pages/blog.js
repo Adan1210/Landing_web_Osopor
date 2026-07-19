@@ -7,6 +7,7 @@ import { renderWhatsappButton } from "../components/whatsappButton.js";
 import { attachCommonListeners } from "../components/pageShell.js";
 import { toCard, renderFeaturedCard, renderPostCard } from "../components/blogCard.js";
 import { esc } from "../utils/html.js";
+import osoporBear from "../assets/images/osopor-oso-difuminado.png";
 
 const CATEGORY_KEYS = ["construccion", "aislamiento", "productos", "guias"];
 
@@ -24,7 +25,7 @@ function renderFilterButtons(t, cats) {
     .map((f) => {
       const active = f.key === filter;
       return `
-        <button class="blog-filter-btn" data-filter="${f.key}" style="font-family:'Geist',sans-serif;font-size:12px;font-weight:600;letter-spacing:0.1em;padding:10px 24px;border-radius:9999px;cursor:pointer;border:1px solid ${active ? "#000000" : "#E7E7E4"};background:${active ? "#000000" : "transparent"};color:${active ? "#ffffff" : "#5e5e5e"};transition:all 0.2s;">${esc(f.label)}</button>
+        <button class="blog-filter-btn" data-filter="${f.key}" style="font-family:'Geist',sans-serif;font-size:12px;font-weight:600;letter-spacing:0.1em;padding:10px 24px;border-radius:9999px;cursor:pointer;border:1px solid ${active ? "#001F3F" : "#E7E7E4"};background:${active ? "#001F3F" : "transparent"};color:${active ? "#ffffff" : "#5e5e5e"};transition:all 0.2s;">${esc(f.label)}</button>
       `;
     })
     .join("");
@@ -48,19 +49,21 @@ function render(root) {
     .join("");
 
   root.innerHTML = `
-    <div style="background:#F7F7F5;color:#1b1b1b;min-height:100vh;display:flex;flex-direction:column;">
+    <div style="background:#F7F7F5;color:#001F3F;min-height:100vh;display:flex;flex-direction:column;">
       ${renderHeader(t, lang, "blog")}
       <main style="padding-top:72px;flex:1;">
-        <section style="padding:100px 0 64px 0;position:relative;overflow:hidden;">
+        <section style="padding:80px 0 40px 0;position:relative;overflow:hidden;min-height:360px;">
           <div style="position:absolute;top:-30%;right:-10%;width:500px;height:500px;background:radial-gradient(circle, rgba(255,133,27,0.07) 0%, rgba(255,255,255,0) 70%);"></div>
-          <div style="max-width:1280px;margin:0 auto;padding:0 32px;display:flex;flex-direction:column;gap:24px;position:relative;">
+          <img src="${osoporBear}" alt="Oso Osopor" style="position:absolute;top:0;right:0;width:auto;max-width:760px;max-height:440px;object-fit:contain;opacity:0.55;pointer-events:none;" />
+          <div style="position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg, rgba(247,247,245,1) 0%, rgba(247,247,245,0.95) 12%, rgba(247,247,245,0.8) 28%, rgba(247,247,245,0.45) 42%, rgba(247,247,245,0.18) 55%, rgba(247,247,245,0) 68%);"></div>
+          <div style="max-width:1280px;margin:0 auto;padding:0 32px;position:relative;z-index:1;display:flex;flex-direction:column;gap:24px;justify-content:center;min-height:360px;">
             <span style="display:inline-block;width:fit-content;padding:4px 12px;background:rgba(255,133,27,0.1);color:#FF851B;border-radius:9999px;font-size:12px;font-weight:600;letter-spacing:0.1em;">OSOPOR · EPS</span>
             <h1 class="blog-hero-title" style="font-size:64px;line-height:1.1;letter-spacing:-0.03em;font-weight:600;color:#001F3F;margin:0;">${esc(t.blog.title)}</h1>
             <p style="font-size:18px;line-height:1.6;letter-spacing:-0.01em;color:#5e5e5e;max-width:640px;margin:0;">${esc(t.blog.sub)}</p>
           </div>
         </section>
-        <section style="padding:0 0 120px 0;">
-          <div style="max-width:1280px;margin:0 auto;padding:0 32px;display:flex;flex-direction:column;gap:48px;">
+        <section style="padding:0 0 100px 0;">
+          <div style="max-width:1280px;margin:0 auto;padding:0 32px;display:flex;flex-direction:column;gap:32px;">
             <div id="blog-filters" style="display:flex;flex-wrap:wrap;gap:10px;border-top:1px solid #E7E7E4;padding-top:32px;">
               ${renderFilterButtons(t, cats)}
             </div>

@@ -14,8 +14,9 @@ export function toCard(post, lang, t, categories) {
 export function renderFeaturedCard(card, t) {
   return `
     <a href="${card.url}" class="featured-card" style="display:grid;grid-template-columns:7fr 5fr;border-radius:1.5rem;background:#ffffff;border:1px solid #E7E7E4;overflow:hidden;transition:border-color 0.3s;">
-      <div class="featured-img" style="height:420px;overflow:hidden;">
+      <div class="featured-img" style="height:420px;overflow:hidden;position:relative;">
         <img alt="${esc(card.title)}" style="width:100%;height:100%;object-fit:cover;" src="${card.img}"/>
+        <span style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;transform:rotate(-28deg);font-size:72px;font-weight:700;letter-spacing:0.35em;text-transform:uppercase;color:transparent;-webkit-text-stroke:1.5px rgba(255,255,255,0.2);filter:blur(1px);pointer-events:none;user-select:none;white-space:nowrap;">Osopor</span>
       </div>
       <div style="padding:48px;display:flex;flex-direction:column;gap:20px;justify-content:center;">
         <div style="display:flex;align-items:center;gap:12px;">
@@ -33,8 +34,9 @@ export function renderFeaturedCard(card, t) {
 export function renderPostCard(card, t) {
   return `
     <a href="${card.url}" class="product-card" style="display:flex;flex-direction:column;border-radius:1.5rem;background:#ffffff;border:1px solid #E7E7E4;overflow:hidden;transition:border-color 0.3s;">
-      <div style="height:220px;overflow:hidden;">
+      <div style="height:220px;overflow:hidden;position:relative;">
         <img alt="${esc(card.title)}" style="width:100%;height:100%;object-fit:cover;" src="${card.img}"/>
+        <span style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;transform:rotate(-28deg);font-size:72px;font-weight:700;letter-spacing:0.35em;text-transform:uppercase;color:transparent;-webkit-text-stroke:1.5px rgba(255,255,255,0.2);filter:blur(1px);pointer-events:none;user-select:none;white-space:nowrap;">Osopor</span>
       </div>
       <div style="padding:32px;display:flex;flex-direction:column;gap:14px;flex:1;">
         <div style="display:flex;align-items:center;gap:12px;">

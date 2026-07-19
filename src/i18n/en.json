@@ -1,5 +1,5 @@
 {
-  "nav": { "productos": "Products", "soluciones": "Solutions", "blog": "Blog", "contacto": "CONTACT" },
+  "nav": { "productos": "Products", "soluciones": "Solutions", "blog": "Blog", "contacto": "Contact" },
   "hero": {
     "badge": "LEADERS IN EXPANDED POLYSTYRENE (EPS)",
     "titlePre": "EPS Solutions",
@@ -49,7 +49,7 @@
         "dimensionsLabel": "DIMENSIONS",
         "dimensions": ["1.20 x 0.30 x 0.12", "1.20 x 0.30 x 0.15", "As required"],
         "presentationsLabel": "PACKAGING",
-        "presentations": ["1.20 x 0.30 x 0.12 = 64 blocks", "1.20 x 0.30 x 0.15 = 48 blocks", "As required"],
+        "presentations": ["1.20 x 0.30 x 0.12 = 64 blocks", "1.20 x 0.30 x 0.15 = 56 blocks", "As required"],
         "note": "EPS void formers replace 4 clay bricks each."
       }
     ]
@@ -78,10 +78,9 @@
   "faq": {
     "h2": "Frequently Asked Questions",
     "items": [
-      { "q": "What EPS panel densities do you manufacture?", "a": "We manufacture EPS panels in 7 densities: 10, 12, 15, 18, 20, 25 and 30 kg/m³, standard size 1.20 × 2.40 m. Special sizes are available depending on order volume." },
+      { "q": "What EPS panel densities do you manufacture?", "a": "We manufacture EPS panels in different densities of 10, 12, 15, 18, 20, 25 and 30 kg/m³, standard size 1.20 × 2.40 m. Special sizes are available depending on order volume." },
       { "q": "How much weight does an EPS void former save?", "a": "EPS void formers can reduce slab loads by up to 80 kg/m². Each EPS roof block replaces 4 clay bricks, saving rebar steel and concrete." },
-      { "q": "Which regions of Peru do you serve?", "a": "Our plant is located in Chiclayo (Av. Lora y Lora 2370, José Leonardo Ortiz) and we serve all of northern and northeastern Peru: Lambayeque, La Libertad, Piura, Tumbes, Cajamarca, Amazonas and San Martín." },
-      { "q": "Is the material virgin or recycled?", "a": "All our products are made from 100% virgin expanded polystyrene, guaranteeing uniform density and certified thermal performance." }
+      { "q": "Which regions of Peru do you serve?", "a": "Our plant is located in Chiclayo (Av. Lora y Lora 2370, José Leonardo Ortiz) and we serve all of northern and northeastern Peru: Lambayeque, La Libertad, Piura, Tumbes, Cajamarca, Amazonas and San Martín." }
     ]
   },
   "contact": {

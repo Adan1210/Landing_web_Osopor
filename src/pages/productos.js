@@ -12,7 +12,7 @@ function render(root) {
   const t = TRANSLATIONS[lang];
 
   root.innerHTML = `
-    <div style="background:#F7F7F5;color:#1b1b1b;min-height:100vh;display:flex;flex-direction:column;">
+    <div style="background:#F7F7F5;color:#001F3F;min-height:100vh;display:flex;flex-direction:column;">
       ${renderHeader(t, lang, "productos")}
       <main style="padding-top:72px;flex:1;">
         ${renderProducts(t)}

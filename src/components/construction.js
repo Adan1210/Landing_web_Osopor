@@ -28,8 +28,9 @@ export function renderConstruction(t) {
             </div>
           </div>
           <div style="position:relative;">
-            <div style="border-radius:2.5rem;overflow:hidden;aspect-ratio:1/1;border:8px solid rgba(255,255,255,0.05);">
+            <div style="border-radius:2.5rem;overflow:hidden;aspect-ratio:1/1;border:8px solid rgba(255,255,255,0.05);position:relative;">
               <img alt="Aplicación técnica de EPS en construcción" class="construction-img" style="width:100%;height:100%;object-fit:cover;filter:grayscale(1);transition:filter 0.7s;" src="${CONSTRUCTION_IMG}"/>
+              <span style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;transform:rotate(-28deg);font-size:72px;font-weight:700;letter-spacing:0.35em;text-transform:uppercase;color:transparent;-webkit-text-stroke:1.5px rgba(255,255,255,0.2);filter:blur(1px);pointer-events:none;user-select:none;white-space:nowrap;">Osopor</span>
             </div>
           </div>
         </div>
