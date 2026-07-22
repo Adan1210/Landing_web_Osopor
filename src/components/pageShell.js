@@ -1,7 +1,6 @@
 import { setLang } from "../i18n/index.js";
 
-// Wires up the header's mobile menu toggle + language switcher, and the
-// contact form's demo submit button (present only on contacto.html).
+// Wires up the header's mobile menu toggle and language switcher.
 // `rerender` is called after a language switch so the page re-renders in
 // place, without a full navigation (keeps scroll position / open menus tidy).
 export function attachCommonListeners(t, rerender) {
@@ -11,13 +10,6 @@ export function attachCommonListeners(t, rerender) {
       rerender();
     });
   });
-
-  const submitBtn = document.getElementById("submit-btn");
-  if (submitBtn) {
-    submitBtn.addEventListener("click", () => {
-      alert(t.demoFormAlert);
-    });
-  }
 
   const menuBtn = document.getElementById("mobile-menu-btn");
   const mobileNav = document.getElementById("mobile-nav");

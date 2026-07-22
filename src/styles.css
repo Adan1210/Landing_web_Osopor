@@ -165,23 +165,24 @@ img {
   z-index: 1;
   max-width: 1280px;
   margin: 0 auto;
-  padding: 16px 32px;
-  display: flex;
-  justify-content: space-between;
+  padding: 10px 112px 10px 32px;
+  display: grid;
+  grid-template-columns: auto minmax(260px, 1fr) minmax(280px, auto);
   align-items: center;
-  gap: 24px;
+  gap: 28px;
 }
 
 .footer-brand {
   display: flex;
-  flex-direction: column;
-  gap: 4px;
+  align-items: center;
 }
 
 .footer-logo {
   display: block;
-  width: 180px;
-  height: auto;
+  width: 132px;
+  height: 104px;
+  object-fit: contain;
+  object-position: left center;
 }
 
 .footer-copyright {
@@ -190,6 +191,8 @@ img {
   font-size: 10px;
   font-weight: 600;
   letter-spacing: 0.06em;
+  text-align: left;
+  justify-self: start;
 }
 
 .footer-address {
@@ -198,6 +201,7 @@ img {
   gap: 10px;
   max-width: 360px;
   color: #626262;
+  justify-self: end;
 }
 
 .btn-primary:hover,
@@ -226,14 +230,19 @@ img {
   transform: scale(1.06);
 }
 
+.contact-icon-link {
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.contact-icon-link:hover {
+  background: rgba(255, 133, 27, 0.2) !important;
+  transform: translateY(-2px);
+}
+
 input:focus,
 textarea:focus,
 select:focus {
   box-shadow: 0 0 0 2px #001f3f;
-}
-
-.submit-btn:hover {
-  background: #001f3f !important;
 }
 
 .blog-filter-btn:hover {
@@ -377,13 +386,26 @@ details summary .material-symbols-outlined {
   }
 
   .footer-inner {
-    padding: 14px 20px;
-    gap: 12px 24px;
-    flex-wrap: wrap;
+    padding: 10px 96px 10px 20px;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 8px 20px;
+  }
+
+  .footer-brand {
+    grid-row: 1 / span 2;
   }
 
   .footer-logo {
-    width: 155px;
+    width: 112px;
+    height: 90px;
+  }
+
+  .footer-copyright {
+    grid-column: 2;
+  }
+
+  .contact-advisor-wrap {
+    height: 340px !important;
   }
 
   .mobile-nav {
@@ -440,10 +462,6 @@ details summary .material-symbols-outlined {
     height: 360px !important;
   }
 
-  .contact-form {
-    padding: 32px !important;
-  }
-
   .article-title {
     font-size: 34px !important;
   }
@@ -455,6 +473,24 @@ details summary .material-symbols-outlined {
 
 /* ---- Phone (<=560px) ---- */
 @media (max-width: 560px) {
+  .contact-advisor-wrap {
+    height: 220px !important;
+  }
+
+  .footer-inner {
+    padding: 10px 84px 10px 20px;
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .footer-brand {
+    grid-row: auto;
+  }
+
+  .footer-copyright {
+    grid-column: 1;
+  }
+
   .hero-title,
   .blog-hero-title {
     font-size: 32px !important;

@@ -88,7 +88,7 @@
     "body": "Nuestro equipo de ingenieros comerciales está listo para brindarle asesoría técnica personalizada.",
     "items": [
       { "icon": "home_work", "title": "Oficina y Planta", "desc": "Av. Lora y Lora 2370\nJosé Leonardo Ortiz\nChiclayo - Lambayeque" },
-      { "icon": "call", "title": "Teléfono", "desc": "905 461 659" },
+      { "icon": "call", "title": "Teléfono", "desc": "+51 905 461 659" },
       { "icon": "mail", "title": "Correo", "desc": "ventas@osopor.pe" }
     ],
     "form": {

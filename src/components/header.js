@@ -3,13 +3,15 @@ import { LOGO_URL } from "../data/productImages.js";
 import { SUPPORTED_LANGS } from "../i18n/index.js";
 
 function renderCompactLangButtons(currentLang) {
+  const languageLabels = { es: "ES", en: "EN", zh: "中文" };
+
   return SUPPORTED_LANGS.map(
     (code) =>
       `<button class="lang-btn" data-lang="${code}" style="background:none;border:none;font-family:inherit;font-size:13px;font-weight:${
         code === currentLang ? "600" : "400"
       };line-height:1;cursor:pointer;padding:0;color:${
         code === currentLang ? "#001f3f" : "#4f5358"
-      }">${code.toUpperCase()}</button>`
+      }">${languageLabels[code] ?? code.toUpperCase()}</button>`
   ).join('<span class="language-separator" aria-hidden="true">/</span>');
 }
 
