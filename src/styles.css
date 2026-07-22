@@ -43,17 +43,14 @@ img {
 
 .header-logo-box,
 .language-box {
-  background: rgba(255, 255, 255, 0.72);
-  border: 1px solid #dededb;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,31,63, 0.04);
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .language-box {
-  background: #ffffff;
-  border-color: #e7e7e4;
-  border-radius: 9999px;
-  box-shadow: 0 5px 14px rgba(0,31,63, 0.08);
+  background: transparent;
 }
 
 .language-box .lang-btn:hover {
@@ -100,18 +97,20 @@ img {
   align-items: center;
   justify-content: center;
   min-height: 42px;
-  padding: 10px 16px;
-  background: rgba(255, 255, 255, 0.86);
-  border: 1px solid #e7e7e4;
-  border-radius: 10px;
-  box-shadow: 0 3px 10px rgba(0,31,63,0.06);
-  transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+  padding: 10px 8px;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  transition: color 0.2s ease;
 }
 
 .header-nav-link:hover {
-  background: #ffffff;
-  border-color: rgba(0,31,63,0.2);
-  transform: translateY(-1px);
+  background: transparent;
+  text-decoration: underline;
+  text-decoration-color: #ff851b;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 7px;
 }
 
 .header-inner {
@@ -133,7 +132,72 @@ img {
     linear-gradient(60deg, #dededb 25%, transparent 25.5%, transparent 75%, #dededb 75%, #dededb);
   background-position: 0 0, 0 0, 28px 49px, 28px 49px, 0 0, 28px 49px;
   background-size: 56px 98px;
-  opacity: 0.72;
+  opacity: 0.14;
+}
+
+.site-footer {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: #f9f9f9;
+  border-top: 1px solid #e7e7e4;
+}
+
+.footer-cubes {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-color: #ffffff;
+  background-image:
+    linear-gradient(30deg, #ececea 12%, transparent 12.5%, transparent 87%, #ececea 87.5%, #ececea),
+    linear-gradient(150deg, #ececea 12%, transparent 12.5%, transparent 87%, #ececea 87.5%, #ececea),
+    linear-gradient(30deg, #f5f5f3 12%, transparent 12.5%, transparent 87%, #f5f5f3 87.5%, #f5f5f3),
+    linear-gradient(150deg, #f5f5f3 12%, transparent 12.5%, transparent 87%, #f5f5f3 87.5%, #f5f5f3),
+    linear-gradient(60deg, #dededb 25%, transparent 25.5%, transparent 75%, #dededb 75%, #dededb),
+    linear-gradient(60deg, #dededb 25%, transparent 25.5%, transparent 75%, #dededb 75%, #dededb);
+  background-position: 0 0, 0 0, 28px 49px, 28px 49px, 0 0, 28px 49px;
+  background-size: 56px 98px;
+  opacity: 0.18;
+}
+
+.footer-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 16px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.footer-logo {
+  display: block;
+  width: 180px;
+  height: auto;
+}
+
+.footer-copyright {
+  margin: 0;
+  color: #626262;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+}
+
+.footer-address {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 360px;
+  color: #626262;
 }
 
 .btn-primary:hover,
@@ -253,6 +317,7 @@ details summary .material-symbols-outlined {
 @media (max-width: 900px) {
   .hero-grid,
   .construction-grid,
+  .construction-gallery,
   .insulation-grid,
   .contact-grid,
   .faq-grid {
@@ -302,7 +367,23 @@ details summary .material-symbols-outlined {
   .header-cubes {
     background-position: 0 0, 0 0, 22px 38.5px, 22px 38.5px, 0 0, 22px 38.5px;
     background-size: 44px 77px;
-    opacity: 0.62;
+    opacity: 0.1;
+  }
+
+  .footer-cubes {
+    background-position: 0 0, 0 0, 22px 38.5px, 22px 38.5px, 0 0, 22px 38.5px;
+    background-size: 44px 77px;
+    opacity: 0.14;
+  }
+
+  .footer-inner {
+    padding: 14px 20px;
+    gap: 12px 24px;
+    flex-wrap: wrap;
+  }
+
+  .footer-logo {
+    width: 155px;
   }
 
   .mobile-nav {

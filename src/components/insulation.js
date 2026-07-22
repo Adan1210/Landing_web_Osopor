@@ -23,9 +23,8 @@ export function renderInsulation(t) {
             </div>
           </div>
           <div style="position:relative;height:500px;border-radius:3rem;overflow:hidden;box-shadow:0 25px 50px -12px rgba(0,31,63,0.25);">
-            <img alt="Detalle macro de perlas de tecnopor de alta densidad" style="width:100%;height:100%;object-fit:cover;" src="${INSULATION_IMG}"/>
-            <span style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;transform:rotate(-28deg);font-size:72px;font-weight:700;letter-spacing:0.35em;text-transform:uppercase;color:transparent;-webkit-text-stroke:1.5px rgba(255,255,255,0.2);filter:blur(1px);pointer-events:none;user-select:none;white-space:nowrap;">Osopor</span>
-            <div style="position:absolute;inset:0;background:linear-gradient(to top, rgba(0,31,63,0.6), transparent);display:flex;align-items:flex-end;padding:48px;">
+            <img alt="Planchas de tecnopor para aislamiento térmico" style="width:100%;height:100%;object-fit:cover;" src="${INSULATION_IMG}"/>
+            <div style="position:absolute;inset:0;background:linear-gradient(to top, rgba(0,31,63,0.38), transparent 55%);display:flex;align-items:flex-end;padding:48px;">
               <div style="color:#ffffff;">
                 <p style="font-size:32px;font-weight:700;letter-spacing:-0.02em;margin:0;">${esc(t.insulation.statTemp)}</p>
                 <p style="font-size:12px;font-weight:600;letter-spacing:0.1em;opacity:0.8;margin:4px 0 0 0;">${esc(t.insulation.statLabel)}</p>

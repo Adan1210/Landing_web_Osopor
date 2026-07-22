@@ -1,5 +1,5 @@
 import { esc } from "../utils/html.js";
-import { CONSTRUCTION_IMG } from "../data/productImages.js";
+import { CONSTRUCTION_GALLERY, CONSTRUCTION_IMG } from "../data/productImages.js";
 
 function renderBenefit(b) {
   return `
@@ -28,10 +28,17 @@ export function renderConstruction(t) {
             </div>
           </div>
           <div style="position:relative;">
-            <div style="border-radius:2.5rem;overflow:hidden;aspect-ratio:1/1;border:8px solid rgba(255,255,255,0.05);position:relative;">
-              <img alt="Aplicación técnica de EPS en construcción" class="construction-img" style="width:100%;height:100%;object-fit:cover;filter:grayscale(1);transition:filter 0.7s;" src="${CONSTRUCTION_IMG}"/>
-              <span style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;transform:rotate(-28deg);font-size:72px;font-weight:700;letter-spacing:0.35em;text-transform:uppercase;color:transparent;-webkit-text-stroke:1.5px rgba(255,255,255,0.2);filter:blur(1px);pointer-events:none;user-select:none;white-space:nowrap;">Osopor</span>
+            <div style="border-radius:2.5rem;overflow:hidden;aspect-ratio:1/1;border:8px solid rgba(255,255,255,0.05);position:relative;background:#f8fafc;">
+              <img alt="Sistema constructivo de losa aligerada con casetones de EPS" class="construction-img" style="width:100%;height:100%;object-fit:contain;transition:filter 0.7s;" src="${CONSTRUCTION_IMG}"/>
             </div>
+          </div>
+        </div>
+        <div class="construction-gallery" style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:64px;">
+          <div style="aspect-ratio:4/3;border-radius:1.5rem;overflow:hidden;border:1px solid rgba(255,255,255,0.12);background:#ffffff;">
+            <img src="${CONSTRUCTION_GALLERY[0]}" alt="Casetones de EPS instalados en una estructura de concreto" style="width:100%;height:100%;object-fit:cover;" />
+          </div>
+          <div style="aspect-ratio:4/3;border-radius:1.5rem;overflow:hidden;border:1px solid rgba(255,255,255,0.12);background:#ffffff;">
+            <img src="${CONSTRUCTION_GALLERY[1]}" alt="Distribución de casetones de EPS y acero en una losa" style="width:100%;height:100%;object-fit:contain;" />
           </div>
         </div>
       </div>

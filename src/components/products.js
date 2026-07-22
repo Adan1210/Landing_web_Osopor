@@ -4,9 +4,8 @@ import { PRODUCT_IMAGES } from "../data/productImages.js";
 function renderProductCard(prod) {
   return `
     <div class="product-card" style="display:flex;flex-direction:column;border-radius:1.5rem;background:#f9f9f9;border:1px solid #E7E7E4;overflow:hidden;transition:border-color 0.3s;">
-      <div style="height:220px;overflow:hidden;position:relative;">
-        <img alt="${esc(prod.title)}" style="width:100%;height:100%;object-fit:cover;" src="${PRODUCT_IMAGES[prod.imgIndex]}"/>
-        <span style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;transform:rotate(-28deg);font-size:72px;font-weight:700;letter-spacing:0.35em;text-transform:uppercase;color:transparent;-webkit-text-stroke:1.5px rgba(255,255,255,0.2);filter:blur(1px);pointer-events:none;user-select:none;white-space:nowrap;">Osopor</span>
+      <div style="height:240px;overflow:hidden;position:relative;background:#f1f3f5;">
+        <img alt="${esc(prod.title)}" style="width:100%;height:100%;object-fit:contain;" src="${PRODUCT_IMAGES[prod.imgIndex]}"/>
       </div>
       <div style="padding:32px;display:flex;flex-direction:column;gap:16px;">
         <h3 style="font-size:24px;font-weight:600;letter-spacing:-0.02em;margin:0;">${esc(prod.title)}</h3>
