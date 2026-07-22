@@ -54,7 +54,7 @@ function render(root) {
       <main style="padding-top:72px;flex:1;">
         <section style="padding:80px 0 40px 0;position:relative;overflow:hidden;min-height:360px;">
           <div style="position:absolute;top:-30%;right:-10%;width:500px;height:500px;background:radial-gradient(circle, rgba(255,133,27,0.07) 0%, rgba(255,255,255,0) 70%);"></div>
-          <img src="${osoporBear}" alt="Oso Osopor" style="position:absolute;top:0;right:0;width:auto;max-width:760px;max-height:440px;object-fit:contain;opacity:0.55;pointer-events:none;" />
+          <img src="${osoporBear}" class="decorative-image" alt="Oso Osopor" style="position:absolute;top:0;right:0;width:auto;max-width:760px;max-height:440px;object-fit:contain;opacity:0.55;pointer-events:none;" />
           <div style="position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg, rgba(247,247,245,1) 0%, rgba(247,247,245,0.95) 12%, rgba(247,247,245,0.8) 28%, rgba(247,247,245,0.45) 42%, rgba(247,247,245,0.18) 55%, rgba(247,247,245,0) 68%);"></div>
           <div style="max-width:1280px;margin:0 auto;padding:0 32px;position:relative;z-index:1;display:flex;flex-direction:column;gap:24px;justify-content:center;min-height:360px;">
             <span style="display:inline-block;width:fit-content;padding:4px 12px;background:rgba(255,133,27,0.1);color:#FF851B;border-radius:9999px;font-size:12px;font-weight:600;letter-spacing:0.1em;">OSOPOR · EPS</span>

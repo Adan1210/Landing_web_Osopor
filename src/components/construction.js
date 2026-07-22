@@ -29,7 +29,7 @@ export function renderConstruction(t) {
           </div>
           <div style="position:relative;">
             <div style="border-radius:2.5rem;overflow:hidden;aspect-ratio:1/1;border:8px solid rgba(255,255,255,0.05);position:relative;background:#f8fafc;">
-              <img alt="Sistema constructivo de losa aligerada con casetones de EPS" class="construction-img" style="width:100%;height:100%;object-fit:contain;transition:filter 0.7s;" src="${CONSTRUCTION_IMG}"/>
+              <img alt="Sistema constructivo de losa aligerada con casetones de EPS" class="construction-img" style="width:100%;height:100%;object-fit:cover;object-position:center;transition:filter 0.7s;" src="${CONSTRUCTION_IMG}"/>
             </div>
           </div>
         </div>
@@ -38,7 +38,7 @@ export function renderConstruction(t) {
             <img src="${CONSTRUCTION_GALLERY[0]}" alt="Casetones de EPS instalados en una estructura de concreto" style="width:100%;height:100%;object-fit:cover;" />
           </div>
           <div style="aspect-ratio:4/3;border-radius:1.5rem;overflow:hidden;border:1px solid rgba(255,255,255,0.12);background:#ffffff;">
-            <img src="${CONSTRUCTION_GALLERY[1]}" alt="Distribución de casetones de EPS y acero en una losa" style="width:100%;height:100%;object-fit:contain;" />
+            <img src="${CONSTRUCTION_GALLERY[1]}" alt="Distribución de casetones de EPS y acero en una losa" style="width:100%;height:100%;object-fit:cover;object-position:center;" />
           </div>
         </div>
       </div>

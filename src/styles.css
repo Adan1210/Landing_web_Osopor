@@ -23,6 +23,10 @@ img {
   max-width: 100%;
 }
 
+main img:not(.decorative-image) {
+  border: 1px solid #E7E7E4;
+}
+
 .material-symbols-outlined {
   font-family: "Material Symbols Outlined";
   font-weight: normal;
@@ -230,13 +234,31 @@ img {
   transform: scale(1.06);
 }
 
-.contact-icon-link {
-  transition: background 0.2s ease, transform 0.2s ease;
+.contact-item-link {
+  transition: transform 0.2s ease;
 }
 
-.contact-icon-link:hover {
+.contact-icon-badge {
+  transition: background 0.2s ease;
+}
+
+.contact-item-link:hover {
+  transform: translateX(4px);
+}
+
+.contact-item-link:hover .contact-icon-badge {
   background: rgba(255, 133, 27, 0.2) !important;
+}
+
+.contact-action-primary,
+.contact-action-secondary {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-action-primary:hover,
+.contact-action-secondary:hover {
   transform: translateY(-2px);
+  box-shadow: 0 10px 18px rgba(0, 31, 63, 0.14);
 }
 
 input:focus,
@@ -473,6 +495,10 @@ details summary .material-symbols-outlined {
 
 /* ---- Phone (<=560px) ---- */
 @media (max-width: 560px) {
+  .contact-actions a {
+    width: 100%;
+  }
+
   .contact-advisor-wrap {
     height: 220px !important;
   }

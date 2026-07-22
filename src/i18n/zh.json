@@ -86,10 +86,13 @@
   "contact": {
     "h2": "立即开始您的项目。",
     "body": "我们的商务工程师团队随时为您提供个性化技术咨询。",
+    "whatsappCta": "通过WHATSAPP获取报价",
+    "callCta": "立即致电",
     "items": [
       { "icon": "home_work", "title": "办公室和工厂", "desc": "Av. Lora y Lora 2370\nJosé Leonardo Ortiz\nChiclayo - Lambayeque" },
       { "icon": "call", "title": "电话", "desc": "+51 905 461 659" },
-      { "icon": "mail", "title": "邮箱", "desc": "ventas@osopor.pe" }
+      { "icon": "mail", "title": "邮箱", "desc": "ventas@osopor.pe" },
+      { "icon": "schedule", "title": "营业时间", "desc": "上午8:00 – 晚上7:00\nGMT−5 · 利马" }
     ],
     "form": {
       "nombre": "名字",

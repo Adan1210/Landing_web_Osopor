@@ -15,8 +15,8 @@ function renderSectionRows(label, values) {
       (value, index) => {
         const isFirst = index === 0;
         const isLast = index === values.length - 1;
-        const labelStyles = `padding:20px 24px;font-size:13px;font-weight:800;color:#ffffff;background:#001F3F;border-right:1px solid #FFB733;vertical-align:middle;text-transform:uppercase;letter-spacing:0.14em;${isFirst ? "border-top:3px solid #ffffff;" : ""}${isLast ? "border-bottom:3px solid #ffffff;" : ""}`;
-        const valueStyles = `padding:18px 20px;font-size:15px;color:#001F3F;background:${index % 2 ? "#ffffff" : "#fff2df"};border-bottom:1px solid rgba(255,133,27,0.35);${isFirst ? "border-top:3px solid #ffffff;" : ""}${isLast ? "border-bottom:3px solid #ffffff;" : ""}`;
+        const labelStyles = "padding:20px 24px;font-size:13px;font-weight:800;color:#ffffff;background:#001F3F;border:2px solid #E7E7E4;vertical-align:middle;text-transform:uppercase;letter-spacing:0.14em;";
+        const valueStyles = `padding:18px 20px;font-size:15px;color:#001F3F;background:${index % 2 ? "#ffffff" : "#fff2df"};border-right:1px solid #E7E7E4;border-bottom:1px solid #E7E7E4;${isFirst ? "border-top:2px solid #E7E7E4;" : ""}${isLast ? "border-bottom:2px solid #E7E7E4;" : ""}`;
 
         return `
           <tr>
@@ -31,15 +31,15 @@ function renderSectionRows(label, values) {
 
 function renderSpecCard(card) {
   return `
-    <div style="flex:1;min-width:320px;border-radius:1.5rem;overflow:hidden;background:#ffffff;box-shadow:0 20px 40px rgba(0,31,63,0.06);">
-      <div style="background:#FF851B;padding:28px 32px;">
+    <div style="flex:1;min-width:320px;border:2px solid #E7E7E4;border-radius:1.5rem;overflow:hidden;background:#ffffff;box-shadow:0 20px 40px rgba(0,31,63,0.06);">
+      <div style="background:#FF851B;padding:28px 32px;border-bottom:2px solid #E7E7E4;">
         <h2 style="font-size:26px;line-height:1.15;letter-spacing:-0.02em;font-weight:800;color:#ffffff;margin:0;text-transform:uppercase;">${esc(card.title)}</h2>
       </div>
       <div style="padding:32px;display:flex;flex-direction:column;gap:32px;">
         <div style="display:flex;flex-wrap:wrap;gap:16px;justify-content:center;">
           ${card.features.map(renderFeature).join("")}
         </div>
-        <table style="width:100%;border-collapse:collapse;border:1px solid #e7e7ee;">
+        <table style="width:100%;border-collapse:collapse;border:2px solid #E7E7E4;">
           <tbody>
             ${renderSectionRows(card.densitiesLabel, card.densities)}
             ${renderSectionRows(card.dimensionsLabel, card.dimensions)}

@@ -86,10 +86,13 @@
   "contact": {
     "h2": "Inicie su proyecto hoy mismo.",
     "body": "Nuestro equipo de ingenieros comerciales está listo para brindarle asesoría técnica personalizada.",
+    "whatsappCta": "COTIZAR POR WHATSAPP",
+    "callCta": "LLAMAR AHORA",
     "items": [
       { "icon": "home_work", "title": "Oficina y Planta", "desc": "Av. Lora y Lora 2370\nJosé Leonardo Ortiz\nChiclayo - Lambayeque" },
       { "icon": "call", "title": "Teléfono", "desc": "+51 905 461 659" },
-      { "icon": "mail", "title": "Correo", "desc": "ventas@osopor.pe" }
+      { "icon": "mail", "title": "Correo", "desc": "ventas@osopor.pe" },
+      { "icon": "schedule", "title": "Horario de atención", "desc": "8:00 a. m. – 7:00 p. m.\nGMT−5 · Lima" }
     ],
     "form": {
       "nombre": "Nombre",
