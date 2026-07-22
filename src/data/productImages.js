@@ -7,7 +7,6 @@ import insulationPearlsMacro from "../assets/images/insulation-pearls-macro.webp
 import productPanels from "../assets/images/product-panels.webp";
 import productFormworkBlocks from "../assets/images/product-formwork-blocks.webp";
 import productEpsBeads from "../assets/images/product-eps-beads.webp";
-import watermarkedPanel from "../assets/images/watermarked/eps-panel.webp";
 import watermarkedCasetones from "../assets/images/watermarked/casetones-installation.webp";
 import watermarkedBeads from "../assets/images/watermarked/eps-beads.webp";
 import watermarkedSlabSystem from "../assets/images/watermarked/slab-system.webp";
@@ -23,7 +22,7 @@ export const INSULATION_IMG = watermarkedPanelsStack;
 
 // Order matches products.items in the i18n files (imgIndex 0/1/2):
 // 0 = planchas (panels), 1 = casetones (roof void formers), 2 = perlas (beads)
-export const PRODUCT_IMAGES = [watermarkedPanel, watermarkedCasetones, watermarkedBeads];
+export const PRODUCT_IMAGES = [productPanels, watermarkedCasetones, watermarkedBeads];
 
 // Individually-named exports so blog posts can reuse the same photography
 // without re-importing/duplicating assets.

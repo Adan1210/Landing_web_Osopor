@@ -1,6 +1,7 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "osopor",
+  "name": "landingosopor",
+  "account_id": "8fd3ea7f3fdf77b7847d8001c97c7274",
   "compatibility_date": "2026-07-18",
   "workers_dev": true,
   "preview_urls": false,
